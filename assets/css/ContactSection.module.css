@@ -1,0 +1,68 @@
+.contact .row {
+  display: flex;
+  background-color: var(--black-color);
+  flex-wrap: wrap;
+  gap: 1rem;
+  border-radius: 12px;
+}
+
+.contact .row .map {
+  flex: 1 1 45rem;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.contact .row form {
+  flex: 1 1 45rem;
+  padding: 5rem 2rem;
+  object-fit: cover;
+}
+
+.contact .row form h3 {
+  font-size: 3.5rem;
+  color: #fff;
+}
+
+.contact .row form .inputBox {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+  margin: 2rem 0;
+  border: var(--border);
+}
+
+.contact .row form .inputBox i {
+  color: #fff;
+  font-size: 2rem;
+  padding-left: 2rem;
+}
+
+.contact .row form .inputBox input {
+  width: 100%;
+  padding: 2rem;
+  font-size: 1.7rem;
+  color: #fff;
+  text-transform: none;
+  background-color: transparent;
+}
+
+.contact .row form .btn {
+  color: var(--main-color);
+  background-color: #fff;
+  font-weight: bold;
+}
+
+.contact .heading {
+  width: 100%;
+  border-bottom: 1px solid white;
+  margin: 10px 0;
+}
+.contact h1 {
+  font-size: 33px;
+  color: white;
+  font-weight: 600;
+}
+.contact h1 span {
+  color: black;
+}

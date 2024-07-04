@@ -16,6 +16,8 @@ const ProductSection = () => {
                     </div>
                     <div className={style.image}>
                         <img src={menu5} alt="" />
+                        <span className={style.title}>Mini Burger</span>
+                        <a href="#" className={style.name}>Bacon Burger</a>
                     </div>
                     <div className={style['box-bottom']}>
                         <div className={style.info}>
@@ -38,22 +40,22 @@ const ProductSection = () => {
                             <span className={style.amount}>130gr / 500 cal</span>
                         </div>
                     </div>
-                </div>
-                <div className={`${style.box} ${style['dark-bg']}`}>
+                </div> <div className={`${style.box}`}>
                     <div className={style['box-head']}>
-                        <span className={style.title}>Double Dark Burger</span>
-                        <a href="" className={style.name}>Dark+Cheese+Double Burger</a>
+                        <span className={style.title}>Dark Burger</span>
+                        <a href="#" className={style.name}>Dark+Cheese Burger</a>
                     </div>
                     <div className={style.image}>
-                        <img src={menu5}  alt="" />
+                        <img src={menu7} alt="" />
                     </div>
                     <div className={style['box-bottom']}>
                         <div className={style.info}>
-                            <b className={style.price}>$11.00</b>
-                            <span className={style.amount}>150gr / 550 cal</span>
+                            <b className={style.price}>$10.00</b>
+                            <span className={style.amount}>130gr / 500 cal</span>
                         </div>
                     </div>
                 </div>
+                
             </div>
         </section>
     );

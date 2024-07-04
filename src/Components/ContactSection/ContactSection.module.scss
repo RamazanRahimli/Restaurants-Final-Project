@@ -4,12 +4,14 @@
     background-color: var(--black-color);
     flex-wrap: wrap;
     gap: 1rem;
+    border-radius: 12px;
 }
 
 .contact .row .map {
     flex: 1 1 45rem;
     width: 100%;
     object-fit: cover;
+    border-radius: 12px;
 }
 
 .contact .row form {
@@ -52,3 +54,22 @@
     font-weight: bold;
 
 }
+
+.contact {
+    .heading {
+        width: 100%;
+        border-bottom: 1px solid white;
+margin: 10px 0;
+    }
+
+    h1 {
+        font-size: 33px;
+        color: white;
+        font-weight: 600;
+
+        span {
+            color: black;
+        }
+    }
+}
+

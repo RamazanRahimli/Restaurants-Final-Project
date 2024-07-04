@@ -40,3 +40,21 @@
     font-weight: 300;
     text-decoration: line-through;
 }
+
+.menu {
+    .heading {
+        width: 100%;
+        border-bottom: 1px solid white;
+margin: 10px 0;
+    }
+
+    h1 {
+        font-size: 33px;
+        color: white;
+        font-weight: 600;
+
+        span {
+            color: black;
+        }
+    }
+}

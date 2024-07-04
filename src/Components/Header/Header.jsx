@@ -8,22 +8,22 @@ const Header = () => {
                 <img src={logo} alt="logo" />
             </a>
             <nav className={style.navbar}>
-                <a href="/" className={style.active}>Home</a>
-                <a href="/">About</a>
-                <a href="/">Menu</a>
-                <a href="/">Products</a>
-                <a href="/">Review</a>
-                <a href="/">Contacts</a>
+                <a href="/">Home</a>
+                <a href="/about" >About</a>
+                <a href="/menu">Menu</a>
+                <a href="/product">Products</a>
+                <a href="/review">Review</a>
+                <a href="/contact">Contacts</a>
             </nav>
             <div className={style.buttons}>
                 <button id="search-btn">
                     <i className="fas fa-search"></i>
                 </button>
-                <button id="cart-btn">
+                <button id="cart-btn" >
                     <i className="fas fa-shopping-cart"></i>
                     <span id='item-count'></span>
                 </button>
-                <button id="menu-btn">
+                <button id="menu-btn " className={style.menubtn}>
                     <i className="fas fa-bars"></i>
                 </button>
             </div>

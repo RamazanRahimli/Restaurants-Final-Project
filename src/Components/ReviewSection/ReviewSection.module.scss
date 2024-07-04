@@ -11,6 +11,10 @@
     padding: 3rem 2rem;
     background-color: #fff;
     border-radius: 3rem;
+    img{
+        width: 28%;
+        border-radius: 100px;
+    }
 }
 
 .review .box-container .box p {
@@ -35,4 +39,22 @@
 .review .box-container .box .stars i {
     font-size: 1.5rem;
     color: gold;
+}
+
+.review {
+    .heading {
+        width: 100%;
+        border-bottom: 1px solid white;
+margin: 10px 0;
+    }
+
+    h1 {
+        font-size: 33px;
+        color: white;
+        font-weight: 600;
+
+        span {
+            color: black;
+        }
+    }
 }

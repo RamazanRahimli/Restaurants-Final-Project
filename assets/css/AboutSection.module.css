@@ -1,0 +1,52 @@
+.about .row {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 2rem;
+}
+
+.about .row .image {
+  flex: 1 1 45rem;
+}
+
+.about .row img {
+  width: 100%;
+}
+
+.about .row .content {
+  flex: 1 1 45rem;
+}
+
+.about .row .content h3 {
+  font-size: 3rem;
+  color: #fff;
+}
+
+.about .row .content p {
+  font-size: 1.6rem;
+  color: #ccc;
+  padding: 1rem 0;
+  line-height: 1.8;
+}
+
+.about .heading {
+  width: 100%;
+  border-bottom: 1px solid white;
+  margin: 10px 0;
+}
+.about h1 {
+  font-size: 33px;
+  color: white;
+  font-weight: 600;
+}
+.about h1 span {
+  color: black;
+}
+
+.btn {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  border-radius: 20px;
+  font-size: 14px;
+  padding: 10px 20px;
+}

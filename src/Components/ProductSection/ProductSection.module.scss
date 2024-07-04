@@ -15,6 +15,7 @@
     flex-direction: column;
     justify-content: space-between;
     padding: 3rem;
+  
 }
 
 .product .box-container .box .box-head {
@@ -90,3 +91,20 @@
     color: #fff;
 }
 
+.product {
+    .heading {
+        width: 100%;
+        border-bottom: 1px solid white;
+margin: 10px 0;
+    }
+
+    h1 {
+        font-size: 33px;
+        color: white;
+        font-weight: 600;
+
+        span {
+            color: black;
+        }
+    }
+}
