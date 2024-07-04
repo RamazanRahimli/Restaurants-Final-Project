@@ -23,6 +23,7 @@ const ProductSection = () => {
                         <div className={style.info}>
                             <b className={style.price}>$9.00</b>
                             <span className={style.amount}>110gr / 300 cal</span>
+                            <button id="add-btn" className={style.btn}>add to card</button>
                         </div>
                     </div>
                 </div>
@@ -38,6 +39,7 @@ const ProductSection = () => {
                         <div className={style.info}>
                             <b className={style.price}>$10.00</b>
                             <span className={style.amount}>130gr / 500 cal</span>
+                            <button id="add-btn" className={style.btn}>add to card</button>
                         </div>
                     </div>
                 </div> <div className={`${style.box}`}>
@@ -50,8 +52,9 @@ const ProductSection = () => {
                     </div>
                     <div className={style['box-bottom']}>
                         <div className={style.info}>
-                            <b className={style.price}>$10.00</b>
-                            <span className={style.amount}>130gr / 500 cal</span>
+                            <b className={style.pricea}>$10.00</b>
+                            <span className={style.amounta}>130gr / 500 cal</span>
+                            <button id="add-btn" className={style.btna}>add to card</button>
                         </div>
                     </div>
                 </div>
