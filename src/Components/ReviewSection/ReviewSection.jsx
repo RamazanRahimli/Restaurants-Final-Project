@@ -12,7 +12,7 @@ const ReviewSection = () => {
             <h1 className={style.heading}>Customer's <span>Review</span></h1>
             <div className={style['box-container']}>
                 <div className={style.box}>
-                    <img src={menu9}  alt="quote" />
+                    <img src={menu9} alt="quote" />
                     <p>Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit.
                         Autem Nulla Repellendus Similique Porro Explicabo,
                         Blanditiis Voluptatibus Obcaecati Harum Est,

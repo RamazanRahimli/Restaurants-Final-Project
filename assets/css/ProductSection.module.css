@@ -74,7 +74,6 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 5px;
 }
 
 .product .box-container .box-bottom .info .price {
@@ -102,44 +101,4 @@
 }
 .product h1 span {
   color: black;
-}
-
-.btn {
-  background-color: black;
-  color: white;
-  cursor: pointer;
-  border-radius: 20px;
-  font-size: 14px;
-  padding: 10px 20px;
-  border: 1px solid black;
-}
-.btn:hover {
-  background-color: white;
-  color: black;
-  border: 1px solid black;
-}
-
-.btna {
-  background-color: white;
-  color: black;
-  cursor: pointer;
-  border-radius: 20px;
-  font-size: 14px;
-  padding: 10px 20px;
-  border: 1px solid black;
-}
-.btna:hover {
-  background-color: black;
-  color: white;
-  border: 1px solid white;
-}
-
-.product .box-container .box-bottom .pricea {
-  color: white;
-  font-size: 3rem;
-}
-
-.product .box-container .box-bottom .amounta {
-  color: white;
-  font-size: 1.4rem;
 }

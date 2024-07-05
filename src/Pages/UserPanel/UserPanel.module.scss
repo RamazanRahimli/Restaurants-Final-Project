@@ -1,0 +1,92 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  .main {
+    width: 100%;
+    max-width: 600px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .proContainer {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .profilePhotoContainer {
+    margin-bottom: 20px;
+  }
+  
+  .profilePhoto {
+    border-radius: 50%;
+    border: 2px solid #ccc;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .inputGroup {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .submitButton {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .submitButton:hover {
+    background-color: #0056b3;
+  }
+  
+  .Btn {
+    background-color: #ffffff;
+    color: #c82333;
+    border: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .Btn:hover {
+filter: brightness(0.8);
+  }
+  
+  .sign {
+    margin-right: 10px;
+  }
+  
+  .text {
+    font-weight: bold;
+  }
+  

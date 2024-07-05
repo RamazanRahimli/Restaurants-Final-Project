@@ -16,11 +16,11 @@ const Footer = () => {
 
             <div className={style.links}>
                 <a href="/" className="active">Home</a>
-                <a href="/about">About</a>
-                <a href="/menu">Menu</a>
-                <a href="/product">Products</a>
-                <a href="/review">Review</a>
-                <a href="/contact">Contacts</a>
+                <a href="/">About</a>
+                <a href="/">Menu</a>
+                <a href="/">Products</a>
+                <a href="/">Review</a>
+                <a href="/">Contacts</a>
             </div>
             <div className={style.credit}>
                 created by <span>Ramazan Rehimli</span> | all rights reserved
